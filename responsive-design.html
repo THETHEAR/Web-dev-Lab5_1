@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/29a4dd02b3.js" crossorigin="anonymous"></script>
+</head>
+    <style>
+        @media (min-width:600px){
+            .content{
+            background-color: lightgrey;
+            padding-bottom: 10%;
+            padding-left: 15%;
+            padding-top: 1%;
+        }
+        img{
+            float: left;
+        }
+        .botton{
+            text-align: center;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            margin-left: 40%;
+            margin-right: 40%;
+            padding: 1%;
+            
+        }
+        .botton::before{
+            font-family: FontAwesome;
+            content: "\f217";
+        }
+        }
+
+        @media (max-width:601px){
+            .content{
+                background-color: lightgray;
+                padding-bottom: 10%;
+                padding-left: 10%;
+                padding-right: 10%;
+                padding-top: 1%;
+            }
+
+            img{
+                display: flex;
+                position: relative;
+                margin: auto;
+
+            }
+        
+            .botton{
+                text-align: center;
+                background-color: blue;
+                color: white;
+                border-radius: 10px;
+                margin-left: 1%;
+                margin-right: 1%;
+                padding: 4%;
+            
+        }
+            .botton::before{
+                font-family: FontAwesome;
+                content: "\f217";
+        }
+        }
+        
+        
+    </style>
+<body>
+    <div class="flexible">
+        
+		<div class="product">
+            <img src="imgs/clock.jpg">
+        </div>
+
+        <div class="content">
+            Garmin Instinct, Rugged Outdoor Watch with GPS, 
+            Features GLONASS and Galileo, Heart Rate Monitoring and
+            3-axis Compass, Tundra<br><br>
+            <div class="wrap">
+                <a href="">
+                    <div class="botton">Add to cart</div>
+                </a>
+            </div>
+		</div>
+
+    </div>
+
+</body>
+</html>
